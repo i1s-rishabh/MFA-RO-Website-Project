@@ -1,0 +1,338 @@
+/*
+Green Color - #268545;
+Hover Green - #1e6636;
+Background-color light gray - #dfe6e9
+Background-color light green - #e8ffe3
+
+/*----------------------------------*/
+/*----------Basic Setup-------------*/
+/*----------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Anton", "Poppins", sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+}
+
+/*----------------------------------*/
+/*----------Text Setup-------------*/
+/*----------------------------------*/
+
+/*----------Headings-------------*/
+h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-family: "poppins";
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: normal;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-family: poppins;
+  color: #000;
+}
+
+h6 {
+  color: #000;
+  font-size: 1rem;
+  font-family: "poppins", Courier, monospace;
+  text-align: center;
+  font-weight: normal;
+}
+
+/*----------------------------------*/
+/*----------Header-------------*/
+/*----------------------------------*/
+
+.backgroundimg-text-box {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/domestic/backgroundimg1.jpg);
+  height: 60vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-family: "poppins", Courier, monospace;
+}
+
+/*----------SVG Wave-------------*/
+.section-wave {
+  position: absolute;
+  top: 1;
+  transform: translateY(-100%);
+  width: 100vw;
+  line-height: 0;
+  will-change: transform;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.section-wave svg {
+  fill: #e8ffe3;
+  width: 100%;
+  height: 30px;
+}
+
+.section-wave-white svg {
+  fill: #fff;
+}
+
+/*----------------------------------*/
+/*----------Section 4-------------*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*----------Product Cards-------------*/
+/*----------------------------------*/
+
+.sec2 {
+  margin-top: 70px;
+}
+
+.center-text {
+  text-align: center;
+  color: #000;
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: "poppins", Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+hr {
+  width: 5%;
+  height: 5px;
+  background-color: #268545;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  max-width: 1200px;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+article:nth-child(1),
+article:nth-child(2),
+article:nth-child(3),
+article:nth-child(4),
+article:nth-child(5),
+article:nth-child(6),
+article:nth-child(7),
+article:nth-child(8) {
+  background-color: #e8ffe3;
+}
+
+.card-img {
+  width: 250px;
+  height: 250px;
+  padding: 3rem;
+  transition: 0.5rem;
+}
+
+.card-name {
+  position: absolute;
+  top: 0;
+  width: 3rem;
+  height: 100%;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  background-color: black;
+  color: whitesmoke;
+  padding: 15px 10px;
+  font-family: "poppins", Courier, monospace;
+  font-weight: 600;
+  font-size: 0.8rem;
+  left: -25%;
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0.1rem 0.5rem 1rem rgb(99, 105, 105);
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover .card-name {
+  left: 0;
+}
+
+.card:hover .card-img {
+  transition: 1s ease-in-out;
+  margin-left: 2rem;
+}
+
+/*-----Media Queries For Product Cards-----*/
+
+@media screen and (min-width: 1200px) {
+  body {
+    margin: 3rem 0 0 0;
+  }
+
+  .bg-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*----------------------------------*/
+/*----------Banner-------------*/
+/*----------------------------------*/
+
+.banner {
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 100px;
+  height: auto;
+  background-color: #e8ffe3;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.banner:hover {
+  box-shadow: 0.1rem 0.5rem 1rem rgb(99, 105, 105);
+  transition: 0.3s ease-in-out;
+}
+
+.banner h3 {
+  color: #000;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.banner h2 {
+  text-transform: capitalize;
+}
+
+/*----------------------------------*/
+/*----------Footer-------------*/
+/*----------------------------------*/
+
+footer {
+  position: static;
+  margin-top: 100px;
+  background-color: #e8ffe3;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-around;
+  font-family: "poppins", Courier, monospace;
+  font-size: 0.8rem;
+  color: black;
+  width: 80%;
+  height: 350px;
+}
+
+.col-1 {
+  margin-top: 50px;
+  width: 30%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.social-handles li,
+.fa-envelope,
+.fa-map-marker {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+  transition: 0.3s ease-in-out;
+}
+
+.fa-facebook:hover {
+  color: #1877f2;
+  transition: 0.3s ease-in-out;
+}
+
+.fa-google:hover {
+  color: #ea4335;
+  transition: 0.3s ease-in-out;
+}
+
+.fa-linkedin:hover {
+  color: #0a66c2;
+  transition: 0.3s ease-in-out;
+}
+
+/*--------Attribution--------*/
+
+.attribution {
+  font-family: "poppins", Courier, monospace;
+  background-color: #268545;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  font-size: 0.6rem;
+  text-align: center;
+}
