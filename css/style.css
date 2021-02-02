@@ -65,6 +65,7 @@ button {
   height: 50px;
   background-color: #268545;
   border-radius: 7px;
+  outline: none;
   padding: 0;
   border: none;
   text-transform: uppercase;
