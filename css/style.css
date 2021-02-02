@@ -99,7 +99,7 @@ button:hover {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/https://raw.githubusercontent.com/i1s-rishabh/MFA-RO-Website-Project/main/images/homeimg.webp);
+    url(https://raw.githubusercontent.com/i1s-rishabh/MFA-RO-Website-Project/main/images/homeimg.webp);
   height: 600px;
   width: 100%;
   background-size: cover;
