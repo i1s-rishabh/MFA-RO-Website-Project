@@ -5,9 +5,6 @@ Basic Introduction About This Website Project ---
 
 I'm constructing this Website for a RO Water Purifier Company named Modi Water Purifier. I'm really thankful to Ashok Gupta (Business Head) and Pankaj Gupta (Admin) to giving me this wonderful opportunity to create a way of learning for me.
 
-
-I'll Complete this project asap due college exam it is on hold.
-
 If you want to check the progress of project, kindly visit the link:
 https://i1s-rishabh.github.io/MFA-RO-Website-Project/
 
