@@ -6,6 +6,14 @@ Welcome to the MFA-RO-Website-Project! This project has been a remarkable journe
 
 I owe this opportunity to my friend Suraj Kumar from Ullas Trust, who entrusted me with this substantial project.
 
+## Tech Stack
+
+- **HTML5**: The project is built using the latest HTML5 standards to ensure a modern and robust foundation for the website.
+
+- **CSS3**: CSS3 is employed to style and design the website, providing an appealing and responsive user interface.
+
+- **Vanilla JavaScript (JS)**: Vanilla JS is utilized for adding interactivity and dynamic features to the website, enhancing user engagement and functionality.
+
 ## Project Description
 
 The primary objective of this project is to create a website for Modi Water Purifier, a prominent RO water purifier company. I would like to extend my heartfelt gratitude to Ashok Gupta, the Business Head, and Pankaj Gupta, the Admin, for providing me with this fantastic opportunity to contribute to their digital presence.
